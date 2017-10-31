@@ -11,7 +11,7 @@ class ProgressBar:
         self.prefix_text = ''
         self.suffix_text = ''
         self.progress_char = '█'
-        self.fill_char = '-'
+        self.fill_char = '░'
         self.__completed = False
 
     def show(self, current_value):
