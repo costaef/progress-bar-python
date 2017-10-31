@@ -17,10 +17,10 @@ def main():
         progress_bar.show(i)
 
     # Custom completed message
-    progress_bar.complete('Progress completed!')
+    #progress_bar.complete('Progress completed!')
 
     # Default completed message
-    # progress_bar.complete()
+    progress_bar.complete()
 
 if __name__ == '__main__':
     main()
