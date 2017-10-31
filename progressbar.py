@@ -1,5 +1,12 @@
 class ProgressBar:
     def __init__(self, steps=10):
+        """Inits the progress bar with the default attributes.
+
+        Keyword arguments:
+        steps -- the total number of steps that the progress bar will show
+
+        """
+
         self.steps = steps
         self.prefix_text = ''
         self.suffix_text = ''
@@ -8,6 +15,13 @@ class ProgressBar:
         self.__completed = False
 
     def show(self, current_value):
+        """Show the progress bar with current progress value.
+
+        Keyword arguments:
+        current_value -- the current progress value
+
+        """
+
         if current_value > self.steps:
             self.complete()
             return
@@ -27,6 +41,13 @@ class ProgressBar:
         print(bar_text, end='\r')
 
     def complete(self, message='-----> Completed!'):
+        """Stops the progress bar and show the completed message.
+
+        Keyword arguments:
+        message -- the completed progress message shown below the bar
+
+        """
+
         if not self.__completed:
             print()
             print(message)
