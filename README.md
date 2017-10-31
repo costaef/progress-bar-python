@@ -3,9 +3,21 @@ A simple terminal progress bar for Python applications.
 
 ## Usage
 
-Copy the progressbar.py module into the project directory.
+Copy the progressbar.py module into the target project directory.
 
 ### Example
+
+You can run the example code from the project folder to see the progress bar default behavior:
+
+```bash
+$ git clone https://github.com/costaef/progress-bar-python.git
+$ cd progress-bar-python
+$ python example.py
+```
+
+The terminal will show the progress bar animated.
+
+Or do it yourself like the examples below.
 
 ```python
 from time import sleep
