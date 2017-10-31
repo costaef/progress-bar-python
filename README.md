@@ -3,7 +3,7 @@ A simple terminal progress bar for Python applications.
 
 ## Usage
 
-Copy the progressbar.py module into the target project directory.
+Copy the ``progressbar.py`` module into the target project directory.
 
 ### Example
 
